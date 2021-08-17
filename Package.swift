@@ -5,7 +5,7 @@ import PackageDescription
 
 let package =   Package(
   name: "SCLAlertView",
-  platforms: [.iOS(.v8)],
+  platforms: [.iOS(.v11)],
   products: [
     .library(name: "SCLAlertView", targets: ["SCLAlertView"]),
   ],
